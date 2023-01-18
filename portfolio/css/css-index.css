@@ -1,0 +1,95 @@
+.main-content{
+	background: url(../img/bg_drip.png) no-repeat;
+ 
+}
+
+.content-presa{
+	display: flex;
+}
+
+.box-welcome{
+	display: flex;
+}
+
+.welcome{
+	padding: 1vw;
+	margin-top: 10vw;
+	margin-left: 5%;
+	color: #f15a24;
+	font-size: 9.2vw;
+	width: 57%;
+	border-top: 15px solid #f15a24;
+	z-index: 1;
+}
+
+.title-moi{
+	padding: 1vw;
+	height: 40%;
+	margin-top: 0%;
+	margin-left: 5%;
+	color: #f15a24;
+	font-size: 3vw;
+	width: 57%;
+	border-bottom: 15px solid #f15a24;
+	border-top: 15px solid #f15a24;
+	z-index: 1;
+}
+
+.portrait{
+	z-index: 2;
+	margin-top:-20%;
+
+}
+
+.text-presa{
+	font-family: "Raleway";
+	margin-top: -4%;
+	margin-left: 5%;
+}
+
+.subtitle-presa{
+	color: #f15a24;
+	font-size: 1.78vw;
+}
+
+.text-presa p{
+	width: 70%;
+	margin-top: 5%;
+	font-size: 1.5vw;
+}
+
+.cv {
+	display: flex;
+	margin-left: 5%;
+	margin-top: 10%;
+}
+
+.fleche-cv{
+	margin-left: 5vw;
+	margin-top: -7%;
+}
+
+.title-cv{
+	font-size: 5vw;
+	color: #f15a24;
+	transform: rotate(5deg);
+	transition: all 200ms ease-out;
+}
+
+.title-cv:hover{
+	color: rgb(50,50,50);
+	transform: rotate(0deg);
+}
+
+.box-ico-cv{
+	margin-left: 10vw;
+	transition: all 200ms ease-out;
+}
+
+.box-ico-cv:hover{
+	transform: rotate(-5deg);
+}
+
+.ico-cv{
+	width: 35vw;
+}
