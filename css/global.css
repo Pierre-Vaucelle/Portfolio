@@ -1,0 +1,38 @@
+body {
+	font-family: "BoldStorm";
+	color: rgb(50,50,50);
+	width: 100%;
+	height: 100%;
+	border: 0;
+	margin: 0;
+	background-color: #fbe5b2;
+	scroll-behavior: smooth;	
+}
+
+.active{
+	font-family: "BoldStorm";	
+	color: #f15a24;
+	text-decoration: underline;
+}
+
+a {
+	text-decoration: none;
+	color: rgb(50,50,50);
+}
+
+a:hover{
+	text-decoration: none;
+	color: white;
+}
+
+span:hover{
+	text-decoration: underline;
+	color:white;
+}
+
+
+@font-face{
+	font-family: "BoldStorm";
+	src:url("../fonts/Boldstrom_D.otf");
+}
+
