@@ -4,3 +4,23 @@
  
 }
 
+.content-title{
+	display: flex;
+}
+
+.title-project{
+	padding: 1vw;
+	height: 40%;
+	margin-top: 10%;
+	margin-left: 5%;
+	color: #f15a24;
+	font-size: 7vw;
+	z-index: 1;
+	border-bottom: 15px solid #f15a24;
+	border-top: 15px solid #f15a24;
+}
+
+.ico-projet{
+	margin-left: 2vw;
+	transform: rotate(-10deg);
+}

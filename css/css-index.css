@@ -71,25 +71,93 @@
 
 .title-cv{
 	font-size: 5vw;
-	color: #f15a24;
+	color: rgb(50,50,50);
 	transform: rotate(5deg);
 	transition: all 200ms ease-out;
 }
 
 .title-cv:hover{
-	color: rgb(50,50,50);
+	color: #f15a24;
 	transform: rotate(0deg);
 }
 
 .box-ico-cv{
 	margin-left: 10vw;
-	transition: all 200ms ease-out;
-}
-
-.box-ico-cv:hover{
-	transform: rotate(-5deg);
 }
 
 .ico-cv{
 	width: 35vw;
+	transition: all 200ms ease-out;
+}
+
+.ico-cv:hover{
+	transform: rotate(-5deg);
+}
+
+.formation-top-box{
+	margin-left: 5vw;
+	display: flex;
+}
+
+.ico-formation{
+	transform: rotate(-15deg);
+}
+
+.title-formation{
+	margin-top: 5vw;
+	margin-left: 1vw;
+	font-size: 5vw;
+	height: 5vw;
+	border-bottom: 1vw solid rgb(50,50,50)
+}
+
+.box-liste{
+	display: flex;
+}
+
+.liste-formation-1{
+	margin-left: 17vw;
+	margin-top: -4vw;
+}
+
+.liste-formation-1 h3{
+	font-size: 4vw;
+}
+
+.liste-formation-1 p{
+	font-size: 2vw;
+	margin-top: 1vw;
+}
+
+.ville{
+	font-family: "Poppins";
+	margin-top: -1vw;
+}
+
+.liste-formation-2{
+	margin-left: 8vw;
+	margin-top: -4vw;
+}
+
+.liste-formation-2 h3{
+	font-size: 4vw;
+}
+
+.liste-formation-2 p{
+	font-size: 2vw;
+	margin-top: 1vw;
+}
+
+.liste-formation-3{
+	margin-left: -4vw;
+	padding-left: 3vw;
+}
+
+.liste-formation-3 h3{
+	font-size: 4vw;
+}
+
+.liste-formation-3 p{
+	font-size: 2vw;
+	margin-top: 1vw;
 }

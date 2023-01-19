@@ -1,3 +1,7 @@
+html{
+		scroll-behavior: smooth;
+}
+
 body {
 	font-family: "BoldStorm";
 	color: rgb(50,50,50);
@@ -5,8 +9,11 @@ body {
 	height: 100%;
 	border: 0;
 	margin: 0;
-	background-color: #fbe5b2;
-	scroll-behavior: smooth;	
+	background-color: #fbe5b2;	
+}
+
+.number{
+	font-family: "Poppins";
 }
 
 .active{
@@ -25,7 +32,7 @@ a:hover{
 	color: white;
 }
 
-span:hover{
+.active:hover{
 	text-decoration: underline;
 	color:white;
 }
