@@ -1,0 +1,20 @@
+.main-content{
+	background: url(../img/bg_drip.png) no-repeat;
+ 	height: 40vw;
+}
+
+.content-title{
+	display: flex;
+}
+
+.title-competence{
+	padding: 1vw;
+	height: 40%;
+	margin-top: 10%;
+	margin-left: 5%;
+	color: #f15a24;
+	font-size: 6vw;
+	z-index: 1;
+	border-bottom: 15px solid #f15a24;
+	border-top: 15px solid #f15a24;
+}
