@@ -1,0 +1,45 @@
+.footer{
+	background-color: rgb(251,200,80);
+	height: 15vw;
+	padding-top: 2vw;
+	margin-top: 5vw;
+	display: flex;
+	justify-content: space-around;
+}
+
+.logo-footer{
+	margin: 1vw;
+}
+
+.navbar-footer ul{
+	justify-content: center;
+}
+
+.titre-nav-footer{
+	font-size: 3vw;
+	font-family: "BoldStorm";
+}
+
+.navbar-footer ul li{
+	font-size: 1.5vw;
+	margin: 1vw;
+}
+
+.contact-footer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.contact-footer p{
+	font-size: 1.2vw;
+	margin: 1vw;
+}
+
+.mail {
+	font-family: "Poppins";
+}
+
+.numero-tel{
+	font-family: "Poppins";
+}
