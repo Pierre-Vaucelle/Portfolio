@@ -61,7 +61,7 @@
 }
 
 #project-2d{
-	height: 40vw;
+	height: 35vw;
 }
 
 .title-2d{
@@ -78,7 +78,7 @@
 }
 
 #project-3d{
-	height: 40vw;
+	height: 60vw;
 }
 
 .title-3d{
@@ -110,4 +110,38 @@
 .title-video span{
 	font-size: 5vw;
 	color: #f15a24;
+}
+
+.line-project{
+	display: flex;
+	width: 100%;
+}
+
+.row-project{
+	width: 18%;
+	margin-left: 8%;
+	margin-top: 2%;
+}
+
+.single-project{
+	width: 100%;
+	background-color: white;
+	border-radius: 50px;
+	height: 500px;
+}
+
+.thumbnail-project{
+	width: 88%;
+	border-radius: 50px;
+	border: solid white 20px;
+}
+
+.project-name{
+	margin-left: 5%;
+	font-size: 2vw;
+}
+
+.project-name-picto{
+	margin-left: 5%;
+	font-size: 1.8vw;
 }
